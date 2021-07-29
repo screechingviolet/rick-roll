@@ -25,7 +25,7 @@ rick_roll.subtle_rickroll()
 print(rick_roll.rickroll_text(6))
 
 # raises the very useful RickRollException (optionally, provide a message)
-raise RickRollException("you've let me down")
+raise rick_roll.RickRollException("you've let me down")
 ```
 
 ## Contributing
